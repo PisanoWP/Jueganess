@@ -1,27 +1,10 @@
-<!DOCTYPE html>
-<html lang="es">
-<head>
+<?php 
+include_once 'includes/jueganess.php'; 
+include_once 'includes/actividades.php'; 
+?>
 
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <meta name="description" content="Asociación Cultural de Leganés para disfrute de juegeos de mesa y rol. ">
-  <meta name="keywords" content="Juegos de mesa en leganés, Juegos de rol en leganés, Juegos de cartas en Leganés, "" >
-  <meta name="author" content="Jueganess">
-  <link rel="icon" type="image/png" href="logo-jueganess-512.png">
-
-  <title>Jueganess - Asociación Cultural</title>
-
-  <!-- Custom fonts for this theme -->
-  <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
-  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
-  <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
-
-  <!-- Theme CSS -->
-  <link href="css/freelancer.min.css?v1.0" rel="stylesheet">
-  
-</head>
-
-<body id="page-top">
+<?php
+cabecera(); ?>
 
   <!-- Navigation -->
   <nav class="navbar navbar-expand-lg bg-secondary text-uppercase fixed-top" id="mainNav">
@@ -152,48 +135,11 @@
         <div class="divider-custom-line"></div>
       </div>
 
-
+  
       <!-- Actividades Grid Items -->
-      <div class="row">
-
-        <!-- Portfolio Item 1 -->
-        <div class="col-md-6 col-lg-4">
-          <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#cartel-actvidiades-nov22">
-            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-              <div class="portfolio-item-caption-content text-center text-white">
-                <i class="fas fa-plus fa-3x"></i>
-              </div>
-            </div>
-            <img class="img-fluid" src="img/actividades/cartel-actividades-noviembre-2022.jpg" alt="Cartel de las actividades programadas para Noviembre 2022">
-          </div>
-        </div>
-
-        <!-- Portfolio Item 2 -->
-        <div class="col-md-6 col-lg-4">
-          <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal2">
-            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-              <div class="portfolio-item-caption-content text-center text-white">
-                <i class="fas fa-plus fa-3x"></i>
-              </div>
-            </div>
-            <img class="img-fluid" src="img/cartel-genérico-jueganess.jpg" alt="Cartel Genérico de la Asociación">
-          </div>
-        </div>
-
-        <!-- Portfolio Item 3 --
-        <div class="col-md-6 col-lg-4">
-          <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal3">
-            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-              <div class="portfolio-item-caption-content text-center text-white">
-                <i class="fas fa-plus fa-3x"></i>
-              </div>
-            </div>
-            <img class="img-fluid" src="img/actividades/cartel-actividades-octubre-2022.jpg" alt="Cartel de las actividades programdas para Octubre de 2022">
-          </div>
-        </div>
-        -->
-      </div>
-      <!-- /.row -->
+      <?php
+      mostrar_actividades(); ?>
+      
 
       <div class="row">
         <div class="col-lg-12 mx-auto">
@@ -358,7 +304,7 @@
           <div class="row bg-primary p-3" >
             <div class="col-lg-4 mx-auto" style="color:white;">
 
-              <a class="btn btn-outline-light btn-social mx-1 mb-1" href="#" target="_blank">
+              <a class="btn btn-outline-light btn-social mx-1 mb-1" href="https://telegram.me/comunidadjueganess" target="_blank">
                 <i class="fa-brands fa-telegram"></i>
               </a>
               @comunidadjueganess
@@ -434,7 +380,7 @@
           </a>
           670 05 28 70 / 692 82 72 06
           <br> -->
-          <a class="btn btn-outline-light btn-social mx-1  mb-1" href="#" target="_blank">
+          <a class="btn btn-outline-light btn-social mx-1  mb-1" href="https://telegram.me/comunidadjueganess" target="_blank">
             <i class="fa-brands fa-telegram"></i>
           </a>
           @comunidadjueganess
@@ -503,149 +449,10 @@
   </div>
 
   <!-- Portfolio Modals -->
-
-  <!-- Portfolio Modal 1 -->
-  <div class="portfolio-modal modal fade" id="cartel-actvidiades-nov22" tabindex="-1" role="dialog" aria-labelledby="portfolioModal1Label" aria-hidden="true">
-    <div class="modal-dialog modal-xl" role="document">
-      <div class="modal-content">
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">
-            <i class="fas fa-times"></i>
-          </span>
-        </button>
-        <div class="modal-body text-center">
-          <div class="container">
-            <div class="row justify-content-center">
-              <div class="col-lg-8">
-                <!-- Portfolio Modal - Title -->
-                <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Noviembre 2022</h2>
-                <!-- Icon Divider -->
-                <div class="divider-custom">
-                  <div class="divider-custom-line"></div>
-                  <div class="divider-custom-icon">
-                    <i class="fas fa-dice"></i>
-                  </div>
-                  <div class="divider-custom-line"></div>
-                </div>
-
-                <!-- Portfolio Modal - Text -->
-                <p class="mb-5 text-justify">Este mes tenemos partidas introductorias al Dicemasters y Bloodbowl, una tarde reservadada a juegos rápidos y terminamos 
-                  el mes con Mutan Year Zone.<br>
-                  Además siempre tenemos mesas abiertas y muchos más juegos disponibles<br>                  
-                </p>
-                <p class="mb-5">
-                  <span class="h3 span-lead"><b>¡AQUÍ NADIE SE QUEDA SIN JUGAR!</b></span>
-                </p>
-
-                <!-- Portfolio Modal - Image -->
-                <img class="img-fluid rounded mb-5" src="img/actividades/cartel-actividades-noviembre-2022.jpg" alt="">
-                
-                <button class="btn btn-primary" href="#" data-dismiss="modal">
-                  <i class="fas fa-times fa-fw"></i>
-                  Cerrar Ventana
-                </button>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <!-- Portfolio Modal 2 -->
-  <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-labelledby="portfolioModal2Label" aria-hidden="true">
-    <div class="modal-dialog modal-xl" role="document">
-      <div class="modal-content">
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">
-            <i class="fas fa-times"></i>
-          </span>
-        </button>
-        <div class="modal-body text-center">
-          <div class="container">
-            <div class="row justify-content-center">
-              <div class="col-lg-8">
-                <!-- Portfolio Modal - Title -->                
-                <!-- Icon Divider -->
-                <div class="divider-custom">
-                  <div class="divider-custom-line"></div>
-                  <div class="divider-custom-icon">
-                    <i class="fa-solid fa-dice-d6"></i>
-                    <i class="fa-solid fa-dice-d20"></i>
-                  </div>
-                  <div class="divider-custom-line"></div>
-                </div>
-                <!-- Portfolio Modal - Image -->
-                <img class="img-fluid rounded mb-5" src="img/cartel-genérico-jueganess.jpg" alt="Cartel Genérico de la Asociación">
-                <!-- Portfolio Modal - Text -->                
-                <button class="btn btn-primary" href="#" data-dismiss="modal">
-                  <i class="fas fa-times fa-fw"></i>
-                  Cerrar Ventana
-                </button>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <!-- Portfolio Modal 3 -->
-  <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-labelledby="portfolioModal3Label" aria-hidden="true">
-    <div class="modal-dialog modal-xl" role="document">
-      <div class="modal-content">
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">
-            <i class="fas fa-times"></i>
-          </span>
-        </button>
-        <div class="modal-body text-center">
-          <div class="container">
-            <div class="row justify-content-center">
-              <div class="col-lg-8">
-                <!-- Portfolio Modal - Title -->
-                <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Circus Tent</h2>
-                <!-- Icon Divider -->
-                <div class="divider-custom">
-                  <div class="divider-custom-line"></div>
-                  <div class="divider-custom-icon">
-                    <i class="fas fa-star"></i>
-                  </div>
-                  <div class="divider-custom-line"></div>
-                </div>
-                <!-- Portfolio Modal - Image -->
-                <img class="img-fluid rounded mb-5" src="img/portfolio/circus.png" alt="">
-                <!-- Portfolio Modal - Text -->
-                <p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
-                <button class="btn btn-primary" href="#" data-dismiss="modal">
-                  <i class="fas fa-times fa-fw"></i>
-                  Close Window
-                </button>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-
+  <?php 
+  generar_popups_actividades(); ?>
   
 
-  <!-- Bootstrap core JavaScript -->
-  <script src="vendor/jquery/jquery.min.js"></script>
-  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 
-  <!-- Plugin JavaScript -->
-  <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
-
-  <!-- Contact Form JavaScript
-  <script src="js/jqBootstrapValidation.js"></script>
-  <script src="js/contact_me.js"></script>  -->
-
-  <!-- Custom scripts for this template -->
-  <script src="js/freelancer.min.js"></script>
-
-</body>
-
-</html>
-
+<?php 
+pie(); ?>
