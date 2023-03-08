@@ -45,26 +45,44 @@ cabecera(); ?>
   <!-- Masthead -->
   <header class="masthead bg-primary text-white text-center">
     
-    <div class="container d-flex align-items-center flex-column">
+    <div class="container d-flex align-items-center flex-column-reverse flex-sm-column-reverse flex-md-column-reverse flex-lg-row flex-lg-row">
 
-      <!-- Masthead Avatar Image -->
-      <img class="masthead-avatar mb-5" src="img/logo-jueganess-marco-blanco.png" alt="Logo Jueganess" >
+      <div class="container d-flex align-items-center flex-column">
 
-      <!-- Masthead Heading -->
-      <h1 class="masthead-heading text-uppercase mb-0">Jueganess</h1>
+        <!-- Masthead Avatar Image -->
+        <img class="masthead-avatar mb-5" src="img/logo-jueganess-marco-blanco.png" alt="Logo Jueganess" >
 
-      <!-- Icon Divider -->
-      <div class="divider-custom divider-light">
-        <div class="divider-custom-line"></div>
-        <div class="divider-custom-icon">          
-          <i class="fa-solid fa-dice-d6"></i>
-          <i class="fa-solid fa-dice-d20"></i>
+        <!-- Masthead Heading -->
+        <h1 class="masthead-heading text-uppercase mb-0">Jueganess</h1>
+
+        <!-- Icon Divider -->
+        <div class="divider-custom divider-light">
+          <div class="divider-custom-line"></div>
+          <div class="divider-custom-icon">          
+            <i class="fa-solid fa-dice-d6"></i>
+            <i class="fa-solid fa-dice-d20"></i>
+          </div>
+          <div class="divider-custom-line"></div>
         </div>
-        <div class="divider-custom-line"></div>
+
+        <!-- Masthead Subheading -->
+        <p class="masthead-subheading font-weight-light mb-0">Asociación Cultural de Leganés</p>
+
       </div>
 
-      <!-- Masthead Subheading -->
-      <p class="masthead-subheading font-weight-light mb-0">Asociación Cultural de Leganés</p>
+      <?php 
+      // La actividad destacada, por defecto, SIEMPRE será la última que se cree
+      // la questa en la posición 0
+      $rutaImagenes ='img/actividades/';
+      $actividades = get_actividades(); 
+      $act = $actividades[0]; ?>
+      <div class="container d-flex align-items-center flex-column">
+        <?php 
+        $imagenCartel = $rutaImagenes . $act['cartel'];
+        $imagenAlt = $rutaImagenes . $act['alt_cartel']; ?>
+        <img class="img-fluid" src="<?php echo $imagenCartel;?>" alt="<?php echo $imagenAlt;?>" >
+        
+      </div>
 
     </div>
   </header>

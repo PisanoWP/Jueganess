@@ -109,6 +109,21 @@ function get_actividades(){
 
   
   $actividades = array();
+
+  $actividades[] = array('id' => 'mar23'
+                      , 'title' => 'MARZO 2023'
+                      , 'content' => ''
+                      , 'cartel' => 'cartel-actividades-marzo-2023.jpg'
+                      , 'alt_cartel' => 'Cartel de las actividades programadas para Marzo de 2023'
+                        );
+
+  $actividades[] = array('id' => 'torneohq23'
+                      , 'title' => 'I TORNEO HEROQUEST 2023'
+                      , 'content' => ''
+                      , 'cartel' => 'cartel-i-torneo-heroquest-jueganess-febrero-2023.png'
+                      , 'alt_cartel' => 'Cartel del I Torneo de HeroQuest para Febrero y Marzo de 2023'
+                        );
+
   $actividades[] = array('id' => 'feb23'
                       , 'title' => 'FEBRERO 2023'
                       , 'content' => 'Aquí de nuevo con la programación para este mes, que viene cargadito<br>
