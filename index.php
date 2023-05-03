@@ -24,6 +24,10 @@ cabecera(); ?>
             <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#actividades">Actividades</a>
           </li>          
           
+          <li class="nav-item mx-0 mx-lg-1">
+            <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="jornadas-jueganess-2023.php">II Jornadas</a>
+          </li>
+
           
           <li class="nav-item mx-0 mx-lg-1">
             <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#ven-a-vernos">Ven a vernos</a>
@@ -75,19 +79,17 @@ cabecera(); ?>
       // la questa en la posición 0
       $rutaImagenes ='img/actividades/';
       $actividades = get_actividades(); 
-      $act = $actividades[0]; ?>
+      $act = $actividades['jornada2023']; ?>
       <div class="container d-flex align-items-center flex-column">
         <?php 
         $imagenCartel = $rutaImagenes . $act['cartel'];
-        $imagenAlt = $rutaImagenes . $act['alt_cartel']; ?>
-        <img class="img-fluid" src="<?php echo $imagenCartel;?>" alt="<?php echo $imagenAlt;?>" >
+        $imagenAlt =  $act['alt_cartel']; ?>
+        <a href="jornadas-jueganess-2023.php" alt="II Jornadas Jueganess"><img class="img-fluid" src="<?php echo $imagenCartel;?>" alt="<?php echo $imagenAlt;?>" ></a>
         
       </div>
 
     </div>
   </header>
-
-
 
   <!-- About Section -->
   <section class="page-section mb-0" id="sobre-jueganess">
