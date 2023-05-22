@@ -130,8 +130,18 @@ cabecera(); ?>
           <p class="lead" >
             Otros importantes colaboradores son empresas y editoriales relacionadas con los juegos de rol y juegos de mesa. Entre ellas, nombres tan conocidos dentro del mundo lúdico como son: <span style="font-weight: bold;">Nosolorol, Falomir Juegos, Con pluma y píxel, Suseya Ediciones, El Refugio de Ryhope, Rocket Lemon Games, HT Publisher, Draco Ideas, Eclipse Editorial, GDM…</span>
           </p>
-          <p class="lead" >También contaremos con Bambinomonkey, publicista e ilustrador, que estara firmando <span style="font-weight: bold;">Rabbitz & Robots.</span></p>
+          <p class="lead" >También contaremos con <a href="https://www.instagram.com/bambinomonkey/" target="_blank" rel="nofollow" >Bambinomonkey</a>, publicista e ilustrador, que estara firmando <span style="font-weight: bold;">Rabbitz & Robots </span> de 12:00 a 13:00 y de 18:00 a 19:00.</p>
+
           <p class="lead" >Contaremos con otras ilustradoras de Leganés y alrededores como Patcas Ilustration y LidiaMG.</p>          
+
+          <!--
+          <p class="lead" >La gente de <a href="https://dracoideas.com/editorial/ven-a-jugar-con-nosotros-a-jueganess/">Dracoideas</a> también estarán presentando sus últimas novedades y probando algunos de sus juegos durante todo el día, 
+          no pierdas la oportunidad de probar <i>Saladin</i>, <i>Furia en Midway</i>, <i>ONUS! Traianus</i> o <i>SCOPE U-boot</i>. </p>          -->
+
+          <p class="lead" > Tendremos a Eduardo, autor de Ratland, probando con vosotros la nueva expansión. ¡Nuevas aventuras para las ratas más gamberras!, y traéte tu copia para que te la lleves firmada.</p>          
+
+          
+
         </div>
 
       
