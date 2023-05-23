@@ -4,6 +4,7 @@ include_once 'includes/actividades.php';
 ?>
 
 <?php
+$jornadas_activas = false; 
 cabecera(); ?>
 
   <!-- Navigation -->
@@ -21,7 +22,8 @@ cabecera(); ?>
             <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger active" href="#">II Jornadas</a>
           </li>
                     
-
+          <?php 
+          if ($jornadas_activas): ?>
           <li class="nav-item mx-0 mx-lg-1">
             <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#horario">Horario</a>
           </li>
@@ -34,6 +36,8 @@ cabecera(); ?>
             <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#partidas">Partidas</a>
           </li>
 
+          <?php
+          endif; ?>
           <li class="nav-item mx-0 mx-lg-1">
             <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#contacto">Contacto</a>
           </li>
@@ -111,7 +115,7 @@ cabecera(); ?>
 
       <div class="row">
         <div class="col-md-12 ml-auto">
-          <h3>El centro José Saramago será la sede de este evento lleno de actividades lúdicas el próximo 20 de mayo</h3>          
+          <h3>El centro José Saramago fue la sede de este evento que estuvo lleno de actividades lúdicas el pasado 20 de mayo de 2023</h3>          
         </div>
       </div>
 
@@ -119,26 +123,26 @@ cabecera(); ?>
       <div class="row">
         <div class="col-md-12 ml-auto">          
           <p class="lead" >
-            El próximo <span style="font-weight: bold;">20 de mayo</span> tendrán lugar las <span style="font-weight: bold;">Jornadas Jueganess II</span>, organizadas por la Asociación Jueganess, que traerán a nuestra ciudad lo mejor del ocio alternativo. El lugar de esta celebración es el emblemático centro cívico José Saramago, espacio que se llenará de actividades lúdicas para niños, jóvenes y adultos. 
+            El pasado <span style="font-weight: bold;">20 de mayo</span> tuvieron lugar nuestras <span style="font-weight: bold;">II Jornadas Jueganess</span>, 
+            organizadas por la Asociación Cultural Jueganess. Fue un gran día donde <span style="font-weight: bold;">más de 600 personas</span> se pasaron a disfrutar de lo mejor del ocio alternativo. <br>
           </p>
-          <p class="lead" >
-            La apertura de puertas está prevista a las 9:30 y, desde ese primer momento, los visitantes podrán disfrutar de demostraciones y partidas de rol, juegos de mesa, rol en vivo, Torneo de Blood Bowl 7 y más actividades aún por confirmar. El horario estimado es de 9:30 a 21:00, con una pausa para comer entre las 14:00 y las 16:00. 
-          </p>
-          <p class="lead" >
-            Colaboran entidades y empresas locales como son <i>DeJovenes</i>, el Ayuntamiento de Leganés y la tienda <i>El Señor Miyagi</i>, entre otras. También participan asociaciones y empresas de todo Madrid como <i>Generación X Getafe</i>, </i>Asociación eter</i> y <i>Madrid By Night</i>.
-          </p>
-          <p class="lead" >
-            Otros importantes colaboradores son empresas y editoriales relacionadas con los juegos de rol y juegos de mesa. Entre ellas, nombres tan conocidos dentro del mundo lúdico como son: <span style="font-weight: bold;">Nosolorol, Falomir Juegos, Con pluma y píxel, Suseya Ediciones, El Refugio de Ryhope, Rocket Lemon Games, HT Publisher, Draco Ideas, Eclipse Editorial, GDM…</span>
-          </p>
-          <p class="lead" >También contaremos con <a href="https://www.instagram.com/bambinomonkey/" target="_blank" rel="nofollow" >Bambinomonkey</a>, publicista e ilustrador, que estara firmando <span style="font-weight: bold;">Rabbitz & Robots </span> de 12:00 a 13:00 y de 18:00 a 19:00.</p>
 
-          <p class="lead" >Contaremos con otras ilustradoras de Leganés y alrededores como Patcas Ilustration y LidiaMG.</p>          
+          <div class="row">
+            <div class="col-md-3 ml-auto">          </div>
+            <div class="col-md-6 ml-auto">          
+              <img class="img-fluid" src="img/actividades/voluntarios-ii-jornadas-juegannes-2023.jpg" alt="Voluntarios Jorandas Jueganess 2023" >
+              <p class="text-center"><span>Los voluntarios que lo hicieron posible, más majetes todos ellos</span></p>
+            </div>
+            <div class="col-md-3 ml-auto">          </div>
 
           <!--
           <p class="lead" >La gente de <a href="https://dracoideas.com/editorial/ven-a-jugar-con-nosotros-a-jueganess/">Dracoideas</a> también estarán presentando sus últimas novedades y probando algunos de sus juegos durante todo el día, 
           no pierdas la oportunidad de probar <i>Saladin</i>, <i>Furia en Midway</i>, <i>ONUS! Traianus</i> o <i>SCOPE U-boot</i>. </p>          -->
 
-          <p class="lead" > Tendremos a Eduardo, autor de Ratland, probando con vosotros la nueva expansión. ¡Nuevas aventuras para las ratas más gamberras!, y traéte tu copia para que te la lleves firmada.</p>          
+          <p class="lead" > Solo podemos añadir 
+            ¡¡¡ MUCHAS GRACIAS !!!   
+          
+          </p>
 
           
 
@@ -154,6 +158,8 @@ cabecera(); ?>
   </section>
 
   
+  <?php 
+  if ($jornadas_activas): ?>
   <!-- Horario Section -->
   <section class="page-section portfolio bg-primary " id="horario">
     <div class="container">
@@ -281,6 +287,7 @@ cabecera(); ?>
     </div>
   </section>
 
+
   <!-- Ubicación Section -->
   <section class="page-section" id="ven-a-vernos">
     <div class="container">
@@ -317,6 +324,9 @@ cabecera(); ?>
 
     </div>
   </section>
+
+  <?php
+  endif; ?>
 
 
     <!-- Colaboradores -->
