@@ -111,6 +111,13 @@ function get_actividades(){
   $actividades = array();
 
 
+  $actividades[] = array('id' => 'jun23'
+                      , 'title' => 'JUNIO 2023'
+                      , 'content' => ''
+                      , 'cartel' => 'cartel-actividades-junio-2023.jpg'
+                      , 'alt_cartel' => 'Cartel de las actividades programadas para Junio de 2023'
+                        );
+
   $actividades['jornada2023'] = array('id' => 'jor23'
                         , 'title' => 'II JORNADAS JUEGANESS 2023'
                         , 'content' => ' <div class="d-flex align-items-center"><a href="jornadas-jueganess-2023.php" class="btn btn-primary btn-lg" target="_blank">
@@ -170,7 +177,7 @@ function get_actividades(){
                       , 'cartel' => 'cartel-actividades-enero-2023.jpg'
                       , 'alt_cartel' => 'Cartel de las actividades programadas para Enero de 2023'
                         );                        
-
+/*
   $actividades[] = array('id' => 'fikividad22'
                       , 'title' => 'FRIKIVIDAD 2022'
                       , 'content' => 'Ven a celebrar la Navidad con nosotros, muchas partidas introductorias para que conozcas
@@ -202,6 +209,7 @@ function get_actividades(){
                       , 'cartel' => 'cartel-actividades-noviembre-2022.jpg'
                       , 'alt_cartel' => 'Cartel de las actividades programadas para Noviembre de 2022'
                         );
+                        */
 
   return $actividades;
 
