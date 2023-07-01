@@ -79,12 +79,14 @@ cabecera(); ?>
       // la questa en la posición 0
       $rutaImagenes ='img/actividades/';
       $actividades = get_actividades(); 
-      $act = $actividades['jornada2023']; ?>
+      $act = $actividades[0]; ?>
       <div class="container d-flex align-items-center flex-column">
         <?php 
         $imagenCartel = $rutaImagenes . $act['cartel'];
         $imagenAlt =  $act['alt_cartel']; ?>
-        <a href="jornadas-jueganess-2023.php" alt="II Jornadas Jueganess"><img class="img-fluid" src="<?php echo $imagenCartel;?>" alt="<?php echo $imagenAlt;?>" ></a>
+        
+        <img class="img-fluid" src="<?php echo $imagenCartel;?>" alt="<?php echo $imagenAlt;?>" >
+        
         
       </div>
 
