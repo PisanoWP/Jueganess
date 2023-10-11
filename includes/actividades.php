@@ -169,6 +169,7 @@ function get_actividades(){
                       , 'alt_cartel' => 'Cartel de las actividades programadas para Febrero de 2023'
                         );
 
+                        /*
   $actividades[] = array('id' => 'ene23'
                       , 'title' => 'ENERO 2023'
                       , 'content' => '<h3 class="mb-5">¡¡¡ FELIZ AÑO NUEVO!!!</h3>
@@ -184,7 +185,7 @@ function get_actividades(){
                       , 'cartel' => 'cartel-actividades-enero-2023.jpg'
                       , 'alt_cartel' => 'Cartel de las actividades programadas para Enero de 2023'
                         );                        
-/*
+
   $actividades[] = array('id' => 'fikividad22'
                       , 'title' => 'FRIKIVIDAD 2022'
                       , 'content' => 'Ven a celebrar la Navidad con nosotros, muchas partidas introductorias para que conozcas

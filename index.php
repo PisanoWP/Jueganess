@@ -77,6 +77,7 @@ cabecera(); ?>
       <?php 
       // La actividad destacada, por defecto, SIEMPRE será la última que se cree
       // la questa en la posición 0
+      /*
       $rutaImagenes ='img/actividades/';
       $actividades = get_actividades(); 
       $act = $actividades[0]; ?>
@@ -89,6 +90,8 @@ cabecera(); ?>
         
         
       </div>
+      
+      */ ?>
 
     </div>
   </header>
@@ -169,7 +172,7 @@ cabecera(); ?>
           Solemos colaborar con otras asociaciones que comparten nuestros gustos, así como con el Ayuntamiento de Leganés y el centro DeJóvenes.
           </p>
           <p class="lead text-white">Y también en la radio, en <span style="font-weight: bold;">LGNradio</span> en el  programa semanal de <span style="font-weight: bold;">Hora de Jugar</span>, donde nos podeis escuhar 
-            cada lunes de 13:00 a 14:00 horas, y en él que hablamos de todo lo que rodea a la actualidad rolera y de juegos de mesa.
+            cada miércoles de 15:30 a 16:30 horas, y en él que hablamos de todo lo que rodea a la actualidad rolera y de juegos de mesa.
 
           </p>
 
@@ -199,7 +202,7 @@ cabecera(); ?>
         <div class="col-lg-12 mx-auto">          
             <h3 id="ccrigoberta">Centro Cívico Rigoberta Menchú</h3>
             <p class="lead">
-            Todos los <span class="span-lead">sábados de 10:00 a 14:00 y de 16:00 a 21:00</span> en el Centro Cívico Rigoberta Menchú de Leganés, Av. Rey Juan Carlos I, 100, 28916 Leganés, Madrid.
+            Todos los <span class="span-lead">sábados de 16:00 a 21:00</span> en el Centro Cívico Rigoberta Menchú de Leganés, Av. Rey Juan Carlos I, 100, 28916 Leganés, Madrid.
             En el barrio de El Carrascal, muy cerca de Parquesur, en la parada de Metrosur de El Carrascal.
             </p>
             <a class="enlace-mapa" href="https://goo.gl/maps/ozySqJ65QrvuWBwd7" target="_blank" title="Ver Mapa">
@@ -284,7 +287,7 @@ cabecera(); ?>
       <div class="row">
         <div class="col-lg-12 mx-auto">
           <ul>
-            <li><p class="lead"><span class="span-lead">LGNradio</span>: programa semanal de radio llamado <a href="https://lgnmedios.com/podcasts/" target="_blank" title="Podcast Hora de Jugar">Hora de Jugar</a>. Se retransmite cada lunes de 13:00 a 14:00 horas, y en él se habla de todo lo que rodea a la actualidad rolera y de juegos de mesa.</p></li>
+            <li><p class="lead"><span class="span-lead">LGNradio</span>: programa semanal de radio llamado <a href="https://lgnmedios.com/podcasts/" target="_blank" title="Podcast Hora de Jugar">Hora de Jugar</a>. Se retransmite cada miercóles de 15:30 a 16:30 horas, y en él se habla de todo lo que rodea a la actualidad rolera y de juegos de mesa.</p></li>
             <li><p class="lead"><span class="span-lead">Jornadas de puertas abiertas</span>: todos los sábados o domingos que tengamos asignado por el ayuntamiento un centro cívico, invitamos a todo el mundo a que se pase por allí para enseñarles a jugar a diferentes juegos.<br>
               También hacemos actividades para toda la familia o incluso hay quien se lleva su propio juego y lo que quiere es encontrar personas afines para pasar un buen rato.</p></li>
             <li><p class="lead"><span class="span-lead">Jornadas JuegaNess:</span> realizadas en febrero de 2019 en el centro Dejóvenes de Leganés; con gran afluencia de público, medios y editoriales.</p></li>            
@@ -380,7 +383,7 @@ cabecera(); ?>
           <h4 class="text-uppercase mb-4">Ven a Conocernos</h4>
           <p class="lead mb-0 text-justify"><b>CC Rigobeta Menchú</b>
             <br>Av. Rey Juan Carlos I, 100. Leganés
-            <br>Sábados 10:00 a 14:00 y 16:00 a 21:00
+            <br>Sábados 16:00 a 21:00
           </p>
           <hr style="border: 1px solid white;">
           <p class="lead mb-0 text-justify"><b>CC José Saramago</b>
