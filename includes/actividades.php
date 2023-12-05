@@ -110,6 +110,21 @@ function get_actividades(){
   
   $actividades = array();
 
+  $actividades[] = array('id' => 'dic23familila'
+                      , 'title' => 'JUEGA EN FAMILIA'
+                      , 'content' => ''
+                      , 'cartel' => 'cartel-juegos-en-familia-diciembre-2023.jpg'
+                      , 'alt_cartel' => 'Cartel de juegos en familia'
+                        );
+
+
+  $actividades[] = array('id' => 'dic23taller'
+                      , 'title' => 'TALLER DE TÉCNICAS NARRATIVAS Y DE IMPROVISACIÓN PARA ROL'
+                      , 'content' => ''
+                      , 'cartel' => 'cartel-improvisacion-diciembre-2023.jpg'
+                      , 'alt_cartel' => 'Cartel de técnicas narrativas y de improvisación'
+                        );
+
   $actividades[] = array('id' => 'nov23'
                       , 'title' => 'JUEGOS RÁPIDOS Y FÁCILES'
                       , 'content' => ''
