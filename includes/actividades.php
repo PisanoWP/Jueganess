@@ -110,6 +110,15 @@ function get_actividades(){
   
   $actividades = array();
 
+  $actividades[] = array('id' => 'rootacademy'
+                      , 'title' => 'ROOT ACADEMY'
+                      , 'content' => '<p><b>¡Aprende a jugar al juego de mesa Root en Jueganess!</b></p>'
+                                   . '<p>Nos reunimos un domingo de cada mes para aprender y mejorar en este juego tan asimétrico y lleno de estrategia. La actividad es abierta a todo el mundo, 100% gratuita y apta para todos los niveles.<br> No buscamos crear un entorno competitivo sino divertirnos e ir mejorando entre todos.</p>'
+                                  . '<p>El único requisito indispensable es apuntarse en el canal de Telegram de la asociación para poder saber cuantos seremos, llevar copias del juego y demás.</p>'
+                      , 'cartel' => 'root-academy-2024.jpg'
+                      , 'alt_cartel' => 'Cartel Root Academy'
+                        );
+                        
   $actividades[] = array('id' => 'dic23familila'
                       , 'title' => 'JUEGA EN FAMILIA'
                       , 'content' => ''

@@ -76,7 +76,7 @@ cabecera(); ?>
 
       <?php 
       // La actividad destacada, por defecto, SIEMPRE será la última que se cree
-      // la questa en la posición 0
+      // la que esta en la posición 0
       
       $rutaImagenes ='img/actividades/';
       $actividades = get_actividades(); 
@@ -91,7 +91,6 @@ cabecera(); ?>
         
       </div>
       
-       ?>
 
     </div>
   </header>
