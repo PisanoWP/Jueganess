@@ -110,6 +110,14 @@ function get_actividades(){
   
   $actividades = array();
 
+  $actividades[] = array('id' => 'ii-torneo-heroquest'
+                      , 'title' => 'II TORNEO HEROQUEST'
+                      , 'content' => ''
+                      , 'cartel' => 'cartel-ii-torneo-heroquest-febrero-2024.jpg'
+                      , 'alt_cartel' => 'Cartel II Torneo Heroquest'
+                        );
+
+
   $actividades[] = array('id' => 'rootacademy'
                       , 'title' => 'ROOT ACADEMY'
                       , 'content' => '<p><b>¡Aprende a jugar al juego de mesa Root en Jueganess!</b></p>'
