@@ -404,7 +404,7 @@ cabecera(); ?>
           </a>
           670 05 28 70 / 692 82 72 06
           <br> -->
-          <a class="btn btn-outline-light btn-social mx-1  mb-1" href="https://telegram.me/comunidadjueganess" target="_blank">
+          <a class="btn btn-outline-light btn-social mx-1  mb-1" href="https://t.me/+KkXzBgMjcFphMmIy" target="_blank">
             <i class="fa-brands fa-telegram"></i>
           </a>
           @comunidadjueganess
