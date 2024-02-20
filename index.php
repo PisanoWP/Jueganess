@@ -25,7 +25,7 @@ cabecera(); ?>
           </li>          
           
           <li class="nav-item mx-0 mx-lg-1">
-            <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="jornadas-jueganess-2023.php">II Jornadas</a>
+            <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="jornadas-jueganess-2024.php">III Jornadas</a>
           </li>
 
           
@@ -177,6 +177,25 @@ cabecera(); ?>
 
         </div>
       </div>
+
+      <!-- Actividades Section Heading -->
+      <h2 class="page-section-heading text-center text-uppercase text-white mt-3 mb-0">Jornadas</h2>
+
+      <!-- Icon Divider -->
+      <div class="divider-custom divider-light">
+        <div class="divider-custom-line"></div>
+        <div class="divider-custom-icon">
+          <i class="fas fa-dice"></i>
+        </div>
+        <div class="divider-custom-line"></div>
+      </div>
+
+      <!-- Actividades Grid Items -->
+      <?php
+      mostrar_jornadas(); ?>
+
+
+
     </div>
   </section>
 
@@ -372,105 +391,10 @@ cabecera(); ?>
     </div>
   </section> 
 
-  <!-- Footer -->
-  <footer class="footer text-center">
-    <div class="container">
-      <div class="row">
+  
 
-        <!-- Footer Location -->
-        <div class="col-lg-4 mb-5 mb-lg-0">
-          <h4 class="text-uppercase mb-4">Ven a Conocernos</h4>
-          <p class="lead mb-0 text-justify"><b>CC Rigobeta Menchú</b>
-            <br>Av. Rey Juan Carlos I, 100. Leganés
-            <br>Sábados 16:00 a 21:00
-          </p>
-          <hr style="border: 1px solid white;">
-          <p class="lead mb-0 text-justify"><b>CC José Saramago</b>
-            <br>Av. Mar Mediterráneo, 24. Leganés
-            <br>Domingos 10:00 a 14:00
-          </p>
-
-        </div>
-
-        <!-- Footer Social Icons -->
-        <div class="col-lg-4 mb-5 mb-lg-0">
-          <h4 class="text-uppercase mb-4">Más Información</h4>
-          
-          
-          <div class="text-justify">
-          <!--
-          <a class="btn btn-outline-light btn-social mx-1 mb-1" href="#">
-            <i class="fa-brands fa-whatsapp"></i> 
-          </a>
-          670 05 28 70 / 692 82 72 06
-          <br> -->
-          <a class="btn btn-outline-light btn-social mx-1  mb-1" href="https://t.me/+KkXzBgMjcFphMmIy" target="_blank">
-            <i class="fa-brands fa-telegram"></i>
-          </a>
-          @comunidadjueganess
-          <br>
-
-          <a class="btn btn-outline-light btn-social mx-1  mb-1" href="mailto:info@jueganess.org" target="_blank">
-            <i class="fa-solid fa-envelope"></i>
-          </a>
-          info@jueganess.org
-          <br>
-
-          <a class="btn btn-outline-light btn-social mx-1  mb-1" href="https://www.instagram.com/jueganess" target="_blank">
-            <i class="fa-brands fa-instagram"></i>
-          </a>
-          @jueganess
-          <br>
-          <a class="btn btn-outline-light btn-social mx-1  mb-1" href="https://twitter.com/AJueganess" target="_blank">
-            <i class="fab fa-fw fa-twitter"></i>
-          </a>
-          @ajueganess
-          <br>
-
-          <a class="btn btn-outline-light btn-social mx-1  mb-1" href="https://discord.gg/bRGvxYTsTE" target="_blank">
-            <i class="fa-brands fa-discord"></i>
-          </a>
-          @Jueganess
-          <br>
-
-          <!--
-          <a class="btn btn-outline-light btn-social mx-1  mb-1" href="https://www.facebook.com/AJueganess/" target="_blank">
-            <i class="fab fa-fw fa-facebook"></i>
-          </a>
-          @Ajueganess -->
-          
-          
-          
-          
-          </div>
-        </div>
-
-        <!-- Footer About Text -->
-        <div class="col-lg-4">
-          <h4 class="text-uppercase mb-4">Aquí Jugamos Todos</h4>
-          <p class="lead mb-0">
-            <img style="width: 100%" src="img/tira-dados-jueganess.jpg" alt="Imagen de una banadeja para tirar dados con el logo de jueganess">
-
-          </p>
-        </div>
-
-      </div>
-    </div>
-  </footer>
-
-  <!-- Copyright Section -->
-  <section class="copyright py-4 text-center text-white">
-    <div class="container">
-      <small>Copyright &copy; Jueganess 2022</small>
-    </div>
-  </section>
-
-  <!-- Scroll to Top Button (Only visible on small and extra-small screen sizes) -->
-  <div class="scroll-to-top d-lg-none position-fixed ">
-    <a class="js-scroll-trigger d-block text-center text-white rounded" href="#page-top">
-      <i class="fa fa-chevron-up"></i>
-    </a>
-  </div>
+  <?php 
+  pie(); ?>
 
   <!-- Portfolio Modals -->
   <?php 
@@ -479,4 +403,4 @@ cabecera(); ?>
 
 
 <?php 
-pie(); ?>
+scripts(); ?>

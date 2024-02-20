@@ -4,7 +4,7 @@ include_once 'includes/actividades.php';
 ?>
 
 <?php
-$jornadas_activas = false; 
+$jornadas_activas = true; 
 cabecera(); ?>
 
   <!-- Navigation -->
@@ -19,7 +19,7 @@ cabecera(); ?>
         <ul class="navbar-nav ml-auto">
                  
           <li class="nav-item mx-0 mx-lg-1">
-            <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger active" href="#">II Jornadas</a>
+            <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger active" href="#">III Jornadas</a>
           </li>
                     
           <?php 
@@ -49,21 +49,16 @@ cabecera(); ?>
 
   <!-- Masthead -->
   <?php 
-      // La actividad destacada, por defecto, SIEMPRE será la última que se cree
-      // la questa en la posición 0
-      $rutaImagenes ='img/actividades/';
-      $actividades = get_actividades(); 
-      $act = $actividades['jornada2023'];
-      
-      
-      $act = array('id' => 'jor23'
-      , 'title' => 'II JORNADAS JUEGANESS 2023'
-      , 'content' => 'LAS INSCRIPCIONES SE ABRIRÁN PRÓXIMAMENTE'
-      , 'cartel' => 'cartel-ii-jornadas-juegannes-2023.jpg'
-      , 'alt_cartel' => 'Cartel de las II jornadas de Jueganess de 2023'
-        );
-      
-      ?>
+    $rutaImagenes ='img/actividades/';
+    $actividades = get_actividades(); 
+    $act = $actividades['jornada2024'];      
+    
+    $act = array( 'id'         => 'jor24'
+                , 'title'      => 'III JORNADAS JUEGANESS 2023'
+                , 'content'    => 'LAS INSCRIPCIONES SE ABRIRÁN PRÓXIMAMENTE'
+                , 'cartel'     => 'cartel-iii-jornadas-juegannes-2024.jpg'
+                , 'alt_cartel' => 'Cartel de las III jornadas de Jueganess de 2024'
+      ); ?>
 
   <header class="masthead bg-primary text-white text-center">
     
@@ -95,69 +90,7 @@ cabecera(); ?>
     </div>
   </header>
 
-  <!-- II Jornadas -->
-  <section class="page-section mb-0" id="ii_jornadas">
-    <div class="container">
-
-      <!-- About Section Heading -->
-      
-      <h2 class="page-section-heading text-center text-uppercase text-secondary">Jornadas Jueganess II</h2>
-
-      <!-- Icon Divider -->
-      <div class="divider-custom">
-        <div class="divider-custom-line"></div>
-        <div class="divider-custom-icon">
-          <i class="fas fa-dice"></i>
-        </div>
-        <div class="divider-custom-line"></div>
-      </div>
-      
-
-      <div class="row">
-        <div class="col-md-12 ml-auto">
-          <h3>El centro José Saramago fue la sede de este evento que estuvo lleno de actividades lúdicas el pasado 20 de mayo de 2023</h3>          
-        </div>
-      </div>
-
-      <!-- About Section Content -->
-      <div class="row">
-        <div class="col-md-12 ml-auto">          
-          <p class="lead" >
-            El pasado <span style="font-weight: bold;">20 de mayo</span> tuvieron lugar nuestras <span style="font-weight: bold;">II Jornadas Jueganess</span>, 
-            organizadas por la Asociación Cultural Jueganess. Fue un gran día donde <span style="font-weight: bold;">más de 600 personas</span> se pasaron a disfrutar de lo mejor del ocio alternativo. <br>
-          </p>
-
-          <div class="row">
-            <div class="col-md-3 ml-auto">          </div>
-            <div class="col-md-6 ml-auto">          
-              <img class="img-fluid" src="img/actividades/voluntarios-ii-jornadas-juegannes-2023.jpg" alt="Voluntarios Jorandas Jueganess 2023" >
-              <p class="text-center"><span>Los voluntarios que lo hicieron posible, más majetes todos ellos</span></p>
-            </div>
-            <div class="col-md-3 ml-auto">          </div>
-
-          <!--
-          <p class="lead" >La gente de <a href="https://dracoideas.com/editorial/ven-a-jugar-con-nosotros-a-jueganess/">Dracoideas</a> también estarán presentando sus últimas novedades y probando algunos de sus juegos durante todo el día, 
-          no pierdas la oportunidad de probar <i>Saladin</i>, <i>Furia en Midway</i>, <i>ONUS! Traianus</i> o <i>SCOPE U-boot</i>. </p>          -->
-
-          <p class="lead" > Solo podemos añadir 
-            ¡¡¡ MUCHAS GRACIAS !!!   
-          
-          </p>
-
-          
-
-        </div>
-
-      
-        
-        
-      </div>
-
-      
-    </div>
-  </section>
-
-  
+   
   <?php 
   if ($jornadas_activas): ?>
   <!-- Horario Section -->
@@ -179,29 +112,14 @@ cabecera(); ?>
       </div>
 
       <h3 class="lead text-white">        
-      Las Jornadas Jueganess II se celebrarán el 20 de mayo de 2023. Horario: 9:30 a 21:00h.
+      Las Jornadas Jueganess III se celebrarán el 25 de mayo de 2024. Horario: 9:30 a 21:00h.
       </h3>
       
 
-      <p class="lead text-white mt-3">
-      <u><span style="font-weight: bold;">Ludoteca.</span> 9:30-20:30:</u><br> La Asociación Jueganess ha ido adquiriendo una completa ludoteca llena de juegos para todos los públicos. Durante el evento, los asistentes podrán disfrutar probando y jugando a juegos tan diferentes como Ciudadelas, Juego de Tronos: La Mano del Rey, Black Stories…
+      <p class="mx-auto text-center lead text-uppercase text-white mt-3">
+        Próximamente más información sobre las actividades programadas ...
       </p>
-      <p class="lead text-white">
-      <u><span style="font-weight: bold;">Mesa de Prototipos.</span> 9:30-20:30:</u><br>  Los visitantes a estas jornadas podrán conocer y disfrutar prototipos de juegos que aún no están en venta y descubrir el futuro del mercado de la mano de la asociación LUDO.
-      </p>
-      <p class="lead text-white">
-      <u><span style="font-weight: bold;">Partidas de rol.</span> 9:30-20:30:</u><br>  Para los fanáticos de las aventuras narrativas, se han organizado más de veinte partidas, divididas en turnos de mañana y tarde. Los asistentes se podrán apuntar a partidas de Savage World, Pathfinder, Blades in the Dark… <br>
-      <a href="#partidas">Abriremos inscripciones</a> para todos aquellos que quieran participar . 
-      </p>
-      <p class="lead text-white">
-      <u><span style="font-weight: bold;">Torneo ( 10:00-14:00 ) y Demostración  (Por la tarde) de Blood Bowl 7.</span>:</u> <br>  Los que buscan juegos de estrategia en tablero, también están de enhorabuena, pues habrá demostraciones de Blood Bowl 7 para quién quiera aprender. También se celebrará un Torneo para los que dispongan de su propio equipo y tengan ganas de ganar suculentos premios
-      </P>
-      <p class="lead text-white">
-      <u><span style="font-weight: bold;">Ceremonia de clausura.</span>20:15: </u><br>  Las Jornadas Jueganes II se despedirán por todo lo alto con un acto de despedida, llena de sorteos y regalos para los participantes y colaboradores. 
-      </P>
-  
 
-     
     </div>
   </section>
 
@@ -227,25 +145,34 @@ cabecera(); ?>
 
       <!-- About Section Content -->
       <div class="row">
+        <?php 
+        $inscripciones_abiertas = false;
+        if ($inscripciones_abiertas){ ?>
         <div class="col-lg-6 ml-auto d-flex align-items-center">
           <p class="lead" >
           ¡¡¡¡ Ya se ha abierto el plazo de inscripciones!!!
-          </p>
-          
-        </div>
-
-      
+          </p>          
+        </div>    
         <div class="col-lg-6 ml-auto d-flex align-items-center">
           <a href="https://forms.gle/P1rv3jadpj4stNyB8" class="btn btn-primary btn-lg" target="_blank">
           <i class="fa-solid fa-dice-d6"></i>
             <i class="fa-solid fa-dice-d20"></i><br>
             RELLENA EL FORMULARIO DE INSCRIPCIÓN<br>
-            <i class="fas fa-dice"></i>
-            
-          </a>
-        
-        </div>
-        
+            <i class="fas fa-dice"></i>            
+          </a>        
+        </div>        
+
+        <?php 
+        }else { ?>
+          <div class="col-lg-12 ml-auto d-flex align-items-center">
+            <p class="mx-auto text-center lead text-uppercase  mt-3">
+            Próximamente se abrirá el plazo de inscripciones
+            </p>          
+          </div>    
+          
+
+        <?php   
+        } ?>
       </div>
 
       
@@ -360,7 +287,7 @@ cabecera(); ?>
               <?php
               if (function_exists('get_colaboradores')){
 
-                $colaboradores = get_colaboradores('2023'); 
+                $colaboradores = get_colaboradores('2024'); 
 
 
                 foreach ($colaboradores as $key => $colaborador) {
@@ -459,10 +386,9 @@ cabecera(); ?>
 
     </div>
   </section> 
-  
+
   <?php 
   pie(); ?>
 
 <?php 
 scripts(); ?>
-
